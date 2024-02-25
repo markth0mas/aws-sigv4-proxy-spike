@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aws-sigv4-proxy-spike"
+version = "0.1.0"
+description = "Testing out proxy for OpenSearch AWS signed access"
+authors = ["Mark Thomas <mark@markthomas.info>"]
+readme = "README.md"
+packages = [
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aws-cdk-lib = "^2.67.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
